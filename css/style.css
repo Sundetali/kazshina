@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Rubik');
+
+body, html {
+	font-family: 'Rubik', 'Roboto', 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+img {
+	max-width: 100%;
+}
+a {
+	color: #b8b8b8;
+}
+.navbar {
+	background: url(../img/nav-top-bg.jpg);
+	background-repeat: repeat-x;
+}
+.navbar ul li {
+	margin-right: 20px;
+}
+.navbar ul li a {
+	color: #fafafa;
+}
+.navbar ul li a:hover {
+	color: #fee5cb;
+}
+.navbar ul li img {
+	width: 25px;
+	height: 25px;
+}
+.nav-bottom .category .dropdown,
+.nav-bottom .category input {
+	font-size: 0.714rem;
+	color: #b8b8b8;
+	border: 1px solid #b8b8b8;
+	border-radius: 0;
+}
+.nav-bottom .category .dropdown {
+	border-right: none;
+}
+.nav-bottom .call span {
+	color: #000;
+}
+
+.nav-bottom .call .phone {
+	font-weight: 700;
+	font-size: 1.285rem;
+}
+.nav-bottom .call .time {
+	font-size: 0.857rem;
+	font-weight: 700;
+}
+.nav-bottom .call .more {
+	font-size: 0.785rem;
+}
+.nav-bottom .call .more a{
+	color: #000;
+}
+
+.nav-bottom .basket span {
+	font-size: 0.857rem;
+}
+.nav-bottom .basket span a {
+	color: #de483d;
+	font-size: 0.714rem;
+	font-weight: 700;
+}

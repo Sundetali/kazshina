@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Site</title>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">  <link rel="stylesheet" href="static/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="static/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+
+  <link rel="stylesheet" href="output.css"></span>
+
+</head>
+<body>
+<!-- Loader -->
+    <div id="page-preloader"><span class="spinner"></span></div>
+    <!-- Loader end -->
+  <header class="wow slideInDown" data-wow-delay="0.7s">
+    <nav class="navbar navbar-expand-lg navbar-dark mb-2 py-2 nav-top">
+      <div class="container">
+        <div class="row w-100 d-flex align-items-center justify-content-between">  
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-top" aria-controls="navbar-top" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- <a href="" class=" fa fa-user"></a> -->
+            <div class="dropdown d-sm-none">
+              <button class="fa fa-user dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">                
+              </button>
+              <div class="dropdown-menu user-dropdown" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item text-white" href="#">Регистрация</a>
+                <a class="dropdown-item text-white" href="#">Авторизация</a>
+              </div>
+            </div>
+            </select>
+            <div class="collapse navbar-collapse" id="navbar-top">
+              <ul class="navbar-nav w-100">
+                  <li class="dropdown">
+                    <a class="dropdown-toggle mr-sm-4" href="#" id="client" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Покупателю
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="client">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>                     
+                    </div>
+                  </li>
+                  <li>
+                    <a class="mr-sm-4" href="#">Акция</a>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle mr-sm-4" href="#" id="about" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            О Компании
+                      </a>
+                    <div class="dropdown-menu" aria-labelledby="about">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </div>
+                  </li>
+                  <li>
+                      <a href="contact.html">Контакты</a>
+                  </li>
+                   <li class="dropdown d-lg-none">
+                      <a class="dropdown-toggle mr-sm-4" href="#" id="about" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                             Каталог товаров
+                      </a>
+                    <div class="dropdown-menu" aria-labelledby="about">
+                      <a class="dropdown-item" href="#">Легковые</a>
+                      <a class="dropdown-item" href="#">Грузовые</a>
+                    </div>
+                  </li>
+					<li class="dropdown ml-lg-auto mr-0">
+                      <a class="dropdown-toggle" href="#" id="language" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                       <!--  <img src="images/russia.png" class="mr-2" alt="ru"> -->
+                            Русский
+                      </a>
+                    <div class="dropdown-menu" aria-labelledby="language">
+                      <a class="dropdown-item" href="#">Қазақша</a>                     
+                    </div>
+                  </li>
+                  <div class="input-group d-lg-none ml-2">
+                  <input type="text" class="form-control" placeholder="Поиск...">
+                  <span>
+                    <i class="fas fa-search text-white"></i>
+                  </span>
+                </div>
+              </ul>
+          </div>
+          </div>
+      </div>
+    </nav>
+    <nav class="nav-middle">
+      <div class="container">
+        <div class="row align-items-center nav-middle-in ">
+          <div class="col-lg-2 col-md-3 wow slideInLeft" data-wow-delay="0.3s">
+            <img src="images/logo.png" alt="kazshina" class="m-auto d-flex">
+          </div>
+          <div class="col-md-3 d-lg-flex d-none">
+            <div class="category  d-flex">
+              <div class="dropdown w-50 d-flex justify-content-center align-items-center">
+                     <select name="" id="">
+                       <option value="">Категории</option>
+                        <option value="">Категории</option>
+                         <option value="">Категории</option>
+                     </select>
+
+                </div>
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Поиск...">
+                  <span>
+                    <i class="fas fa-search text-white"></i>
+                  </span>
+                </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-5 d-flex align-items-center justify-content-between">
+            <div class="call ml-sm-5 ">
+              <span class="phone">8 800 619 85 97</span><br>
+              <span class="time">Пн-Пт 9:00-18:00</span><br>
+              <p class="more d-sm-flex d-none">Режим работы городских точек: <a href="#">Подробнее</a></p>
+            </div>
+             <div class="basket-left d-sm-none">
+                <i class="fas fa-shopping-basket"></i>
+                <span id="cart-total" class="">0</span>            
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="basket d-flex align-items-center">
+              <div class="basket-left d-none d-sm-flex">
+                <i class="fas fa-shopping-basket"></i>
+                <span id="cart-total" class="">0</span>
+              </div>
+              <div class="basket-right">
+                <span class="d-block">
+                  <a href="cart.html">Корзина</a>
+                  <a href="cabinet.html">Личный Кабинет</a>
+                </span>
+                <span class="number text-dark">
+                  0 товаров 0 тг
+                </span>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light nav-bottom nav-bottom">
+      <div class="container">
+        <div class="row w-100">  
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-bottom" aria-controls="navbar-bottom" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-bottom">
+              <ul class="navbar-nav w-100 d-flex align-items-center">
+                  <li class="dropdown">
+                    <a class="dropdown-toggle" href="#" id="client" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      КАТАЛОГ ТОВАРОВ
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="client">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+                  <li>
+					         <a href="#">ШИНЫ ЛЕГКОВЫЕ</a>
+                  </li>
+                  <li>
+                    <a href="#">ШИНЫ ГРУЗОВЫЕ</a>
+                  </li>
+                  
+                  <li>
+                      <a href="#">ШИНЫ КОММЕРЧЕСКИЕ</a>
+                  </li>
+                  
+                  <li>
+                      <a href="#">ДИСКИ</a>
+                  </li>  
+                  <div class="zapis ml-sm-auto mr-0 d-flex justify-content-center align-items-center ">
+                      <a href="#">ЗАПИСАТЬСЯ НА ШИНОМОНТАЖ</a>
+                  </div>
+              </ul>
+          </div>
+          </div>
+      </div>
+    </nav>  
+  </header>
+
+
+	<div class="parallax">
+		<img class="parrallax-image" src="images/mers.jpg" alt="">
+	</div>
+ 	
+ 	<div class="breadCumbs">
+		<div class="container">
+			<a href="index.html" class="breadCumbs__page">Главная</a><span class="fa fa-angle-right"></span><a href="listings.html" class="b-breadCumbs__page m-active">Магазин</a>
+		</div>
+	</div>
+
+  <div class="info-bar">
+    <div class="container">
+      <div class="row d-flex justify-content-between align-items-center">
+        <div class="info-category d-flex align-items-center">
+          <div class="info-category-select popular d-flex align-items-center">
+            <img class="info-icon" src="images/hit.png" alt="hit">
+            <p class="ml-1">Популярные товары</p>
+          </div>
+          <div class="info-category-select new d-flex align-items-center">
+            <img class="info-icon" src="images/new.png" alt="new">
+            <p class="ml-1">Новинка</p>
+          </div>
+          <div class="info-category-select sale d-flex align-items-center ">
+            <img class="info-icon" src="images/%.png" alt="%">
+            <p class="ml-1">Распродажа</p>
+          </div>
+        </div>
+
+        <div class="info-extra d-flex flex-wrap align-items-center justify-content-center">
+          <div class="info-compare d-flex align-items-center">
+            <i class="fa fa-clone"></i>
+            <p class="ml-1">Сравнить выбранные: <span class="text-danger">2</span></p>
+          </div>
+          <div class="info-sort ml-2 d-flex align-items-center">
+            <p>Сортировать по:</p>
+            <select name="selecter" class="m-select" id="">
+              <option value="Популярные">Популярные</option>
+              <option value="От дешевых к дорогим">От дешевых к дорогим</option>
+              <option value="От дорогих к дешевым">От дорогих к дешевым</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-items mt-4">
+    <div class="container">
+      <div class="row">
+       <div class="col-lg-3 col-md-4 items-right">
+          <h4 class="text-center">УЛУЧШИТЕ ПОИСК</h4>
+          <div class="items-filter mt-2">
+            <form action="item">
+              <div class="items-filter-upper">
+                <div class="item-type">
+                  <p>Тип</p>
+                  <select class="m-select filter mt-1" name="" id="">
+                    <option value="">Легковые</option>
+                  </select>
+                </div>
+                <div class="item-type mt-3">
+                  <p>Ширина шины</p>
+                  <select class="m-select filter mt-1" name="" id="">
+                    <option value="">Выберите ширину</option>
+                  </select>
+                </div>
+                <div class="item-type mt-3">
+                  <p>Высота</p>
+                  <select class="m-select filter mt-1" name="" id="">
+                    <option value="">Выберите высоту</option>
+                  </select>
+                </div>
+                <div class="item-type mt-3">
+                  <p>Диаметр</p>
+                  <select class="m-select filter mt-1" name="" id="">
+                    <option value="">Выберите диаметр</option>
+                  </select>
+                </div>
+                <div class="item-type mt-3">
+                  <p>Разница цены</p>
+                      <div class="slider"></div>
+                      <input type="hidden" name="min" value="5000" class="j-min" />
+                      <input type="hidden" name="max" value="500000" class="j-max" />
+                    </div>
+                <div class="item-type">
+                  <p>Сезон</p>
+                  <select class="m-select filter mt-1" name="" id="">
+                    <option value="">Выберите сезон</option>
+                  </select>
+                </div>  
+                 <div class="item-type mt-3">
+                  <p>Бренд</p>
+                  <select class="m-select filter mt-1" name="" id="">
+                    <option value="">Выберите бренд</option>
+                  </select>
+                </div>
+              </div>
+              <div class="items-filter-footer d-flex align-items-center justify-content-center flex-column">
+                <button class="btn btn-red ml-3 d-flex flex-row align-items-center" type="submit" value="Купить в 1 клик">Показать<span class="fa fa-angle-right p-auto"></span> </button> 
+                <a href="">Сбросить</a>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-9 col-md-8">
+          <div class="item-container mt-2 d-flex flex-wrap w-100">
+            <div class="item-image">
+              <img class="item-extra" src="images/new.png" alt="">
+
+              <img class="item-wheel" src="images/wheel.png" alt="шины">
+              <input class="item-compare" type="checkbox">
+            </div>
+            <div class="item-info d-flex flex-wrap justify-content-between">
+              <div class="item-info-text d-flex flex-column">
+                <h5>Westlake SC380</h5>
+                <div class="item-info-text-main">
+                  <p>Бренд: Westlake</p>
+                  <p>Ширина: 205</p>
+                  <p>Высота: 65</p>
+                  <p>Диаметр: 16С</p>
+                  <p>Индекс скорости: Т</p>
+                  <p>Сезон: Летняя</p>
+                  <p>Шипы Без шипов</p>
+                  <p>Тип: Коммерческая</p>
+                </div>
+              </div>
+              <div class="item-info-buy ml-lg-5 mt-4 d-flex flex-column">
+                <div class="item-info-upper d-flex">
+                  <div class="item-info-counter d-flex">
+                    <div class="item-info-counter-box">
+                      <div class="info h-100 d-flex justify-content-center align-items-center">0</div>
+                    </div>
+                    <div class="item-info-counter-plus d-flex flex-column justify-content-between">
+                      <button class="btn-calc plus text-center" href=""><p>+</p></button>
+                      <button class="btn-calc minus text-center mt-1" href="">-</button>
+                    <input type="hidden" id="hiddenVal" value="0"/>
+                    </div>
+                  </div>
+                  <div class="item-info-price ml-4">
+                    <h5>Цена за 1</h5>
+                    <h4>9000 тг</h4>
+                  </div>
+                </div>  
+                <p class="item-extra-price mt-3">Розничная цена: <span>18000 тг</span></p>
+                <p class="item-count">Количество: <span>1шт</span></p>
+                <div class="button-group mt-3 mb-2 d-flex flex-wrap">
+                  <button class="btn btn-yellow d-flex flex-row align-items-center" type="submit" value="В корзину">В корзину <span class="fa fa-angle-right"></span></button> 
+                  <button class="btn btn-red  ml-lg-3 d-flex flex-row align-items-center" type="submit" value="Купить в 1 клик">Купить в 1 клик<span class="fa fa-angle-right p-auto"></span> </button> 
+                </div>
+              </div>
+            </div>
+          </div>
+    <div class="item-container mt-2 d-flex flex-wrap w-100">
+            <div class="item-image">
+              <img class="item-extra" src="images/new.png" alt="">
+
+              <img class="item-wheel" src="images/wheel.png" alt="шины">
+              <input class="item-compare" type="checkbox">
+            </div>
+            <div class="item-info d-flex flex-wrap justify-content-between">
+              <div class="item-info-text d-flex flex-column">
+                <h5>Westlake SC380</h5>
+                <div class="item-info-text-main">
+                  <p>Бренд: Westlake</p>
+                  <p>Ширина: 205</p>
+                  <p>Высота: 65</p>
+                  <p>Диаметр: 16С</p>
+                  <p>Индекс скорости: Т</p>
+                  <p>Сезон: Летняя</p>
+                  <p>Шипы Без шипов</p>
+                  <p>Тип: Коммерческая</p>
+                </div>
+              </div>
+              <div class="item-info-buy ml-lg-5 mt-4 d-flex flex-column">
+                <div class="item-info-upper d-flex">
+                  <div class="item-info-counter d-flex">
+                    <div class="item-info-counter-box">
+                      <div class="info h-100 d-flex justify-content-center align-items-center">0</div>
+                    </div>
+                    <div class="item-info-counter-plus d-flex flex-column justify-content-between">
+                      <button class="btn-calc plus text-center" href=""><p>+</p></button>
+                      <button class="btn-calc minus text-center mt-1" href="">-</button>
+                    <input type="hidden" id="hiddenVal" value="0"/>
+                    </div>
+                  </div>
+                  <div class="item-info-price ml-4">
+                    <h5>Цена за 1</h5>
+                    <h4>9000 тг</h4>
+                  </div>
+                </div>  
+                <p class="item-extra-price mt-3">Розничная цена: <span>18000 тг</span></p>
+                <p class="item-count">Количество: <span>1шт</span></p>
+                <div class="button-group mt-3 mb-2 d-flex flex-wrap">
+                  <button class="btn btn-yellow d-flex flex-row align-items-center" type="submit" value="В корзину">В корзину <span class="fa fa-angle-right"></span></button> 
+                  <button class="btn btn-red  ml-lg-3 d-flex flex-row align-items-center" type="submit" value="Купить в 1 клик">Купить в 1 клик<span class="fa fa-angle-right p-auto"></span> </button> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item-container mt-2 d-flex flex-wrap w-100">
+            <div class="item-image">
+              <img class="item-extra" src="images/new.png" alt="">
+
+              <img class="item-wheel" src="images/wheel.png" alt="шины">
+              <input class="item-compare" type="checkbox">
+            </div>
+            <div class="item-info d-flex flex-wrap justify-content-between">
+              <div class="item-info-text d-flex flex-column">
+                <h5>Westlake SC380</h5>
+                <div class="item-info-text-main">
+                  <p>Бренд: Westlake</p>
+                  <p>Ширина: 205</p>
+                  <p>Высота: 65</p>
+                  <p>Диаметр: 16С</p>
+                  <p>Индекс скорости: Т</p>
+                  <p>Сезон: Летняя</p>
+                  <p>Шипы Без шипов</p>
+                  <p>Тип: Коммерческая</p>
+                </div>
+              </div>
+              <div class="item-info-buy ml-lg-5 mt-4 d-flex flex-column">
+                <div class="item-info-upper d-flex">
+                  <div class="item-info-counter d-flex">
+                    <div class="item-info-counter-box">
+                      <div class="info h-100 d-flex justify-content-center align-items-center">0</div>
+                    </div>
+                    <div class="item-info-counter-plus d-flex flex-column justify-content-between">
+                      <button class="btn-calc plus text-center" href=""><p>+</p></button>
+                      <button class="btn-calc minus text-center mt-1" href="">-</button>
+                    <input type="hidden" id="hiddenVal" value="0"/>
+                    </div>
+                  </div>
+                  <div class="item-info-price ml-4">
+                    <h5>Цена за 1</h5>
+                    <h4>9000 тг</h4>
+                  </div>
+                </div>  
+                <p class="item-extra-price mt-3">Розничная цена: <span>18000 тг</span></p>
+                <p class="item-count">Количество: <span>1шт</span></p>
+                <div class="button-group mt-3 mb-2 d-flex flex-wrap">
+                  <button class="btn btn-yellow d-flex flex-row align-items-center" type="submit" value="В корзину">В корзину <span class="fa fa-angle-right"></span></button> 
+                  <button class="btn btn-red  ml-lg-3 d-flex flex-row align-items-center" type="submit" value="Купить в 1 клик">Купить в 1 клик<span class="fa fa-angle-right p-auto"></span> </button> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item-container mt-2 d-flex flex-wrap w-100">
+            <div class="item-image">
+              <img class="item-extra" src="images/new.png" alt="">
+
+              <img class="item-wheel" src="images/wheel.png" alt="шины">
+              <input class="item-compare" type="checkbox">
+            </div>
+            <div class="item-info d-flex flex-wrap justify-content-between">
+              <div class="item-info-text d-flex flex-column">
+                <h5>Westlake SC380</h5>
+                <div class="item-info-text-main">
+                  <p>Бренд: Westlake</p>
+                  <p>Ширина: 205</p>
+                  <p>Высота: 65</p>
+                  <p>Диаметр: 16С</p>
+                  <p>Индекс скорости: Т</p>
+                  <p>Сезон: Летняя</p>
+                  <p>Шипы Без шипов</p>
+                  <p>Тип: Коммерческая</p>
+                </div>
+              </div>
+              <div class="item-info-buy ml-lg-5 mt-4 d-flex flex-column">
+                <div class="item-info-upper d-flex">
+                  <div class="item-info-counter d-flex">
+                    <div class="item-info-counter-box">
+                      <div class="info h-100 d-flex justify-content-center align-items-center">0</div>
+                    </div>
+                    <div class="item-info-counter-plus d-flex flex-column justify-content-between">
+                      <button class="btn-calc plus text-center" href=""><p>+</p></button>
+                      <button class="btn-calc minus text-center mt-1" href="">-</button>
+                    <input type="hidden" id="hiddenVal" value="0"/>
+                    </div>
+                  </div>
+                  <div class="item-info-price ml-4">
+                    <h5>Цена за 1</h5>
+                    <h4>9000 тг</h4>
+                  </div>
+                </div>  
+                <p class="item-extra-price mt-3">Розничная цена: <span>18000 тг</span></p>
+                <p class="item-count">Количество: <span>1шт</span></p>
+                <div class="button-group mt-3 mb-2 d-flex flex-wrap">
+                  <button class="btn btn-yellow d-flex flex-row align-items-center" type="submit" value="В корзину">В корзину <span class="fa fa-angle-right"></span></button> 
+                  <button class="btn btn-red  ml-lg-3 d-flex flex-row align-items-center" type="submit" value="Купить в 1 клик">Купить в 1 клик<span class="fa fa-angle-right p-auto"></span> </button> 
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+          <div class="items__pagination">
+               <div class="items_pagination-main">
+                <a data-toggle="modal" data-target="#myModal" href="#" class="m-left mr-2"><span class="fa fa-angle-left"></span></a>
+                <span class="m-active"><a href="#">1</a></span>
+                <span><a href="#">2</a></span>
+                <span><a href="#">3</a></span>
+                <span><a href="#">4</a></span>
+                <a href="#" class="m-right ml-2"><span class="fa fa-angle-right"></span></a>    
+              </div>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+<footer class="mt-5">
+<a id="to-top" href="#this-is-top"><i class="fa fa-chevron-up"></i></a>
+    <div class="container">
+      <div class="row align-items-top">
+        <div class="col-lg-3 col-md-3">
+          <div class="left-footer d-flex flex-column justify-content-center align-items-center">
+            <img src="images/logo-white.png" alt="logo">
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo accusamus sed atque obcaecati alias dicta eos quae asperiores, fuga, voluptates, dignissimos ipsa accusantium deleniti nobis quidem doloremque dolores aliquam? Asperiores!</p>
+            <ul class="icons d-flex justify-content-center">
+              <li><i class="fab fa-facebook"></i></li>
+              <li><i class="fab fa-whatsapp"></i></li>
+              <li><i class="fab fa-vk"></i></li>
+            </ul>
+            <ul class="company-info d-flex flex-column  d-sm-none">
+                <li>
+                  <i class="fas fa-location-arrow mr-2"></i>ул. Абылай хана 7 </li> 
+                <li>
+                  <i class="fas fa-phone mr-2"></i>Тел. 8 (708) 164 69 24</li>
+                <li>
+                  <i class="fas fa-envelope mr-2"></i>elnarmurat@gmail.com</li>
+                <li>
+                  <a href="#" class="pl-4"><i>Услуги сайта</i></a></li>
+              </ul>  
+          </div>
+        </div>
+        <div class="col-lg-9 col-md-9 d-md-block d-none">
+          <div class="right-footer d-flex">
+            <div class="col-lg-3 col-md-4 col-sm-4">
+              <ul class="first">
+                <li class="active mt-4 mb-4">Аккаунт</li>
+                <li><a href="#">Мой аккаунт</a></li>
+                <li><a href="#">Регистрация</a></li>
+                <li><a href="#">Авторизация</a></li>
+                <li><a href="#">Корзина</a></li>
+              </ul>  
+            </div>
+            <div class="col-lg-3 col-md-4 d-lg-flex d-none">
+              <ul>
+                <li class="active mt-4  mb-4">Каталог</li>
+                <li><a href="#">Легковые</a></li>
+                <li><a href="#">Грузовые</a></li>
+                <li><a href="#">Коммерческие</a></li>
+                <li><a href="#">Картинг</a></li>
+              </ul>  
+            </div>
+            <div class="col-lg-3 col-md-4">
+              <ul>
+                <li class="active mt-4  mb-4">Компания</li>
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Покупателю</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Акции</a></li>
+                <li><a href="#">Вакансии</a></li>
+              </ul>  
+            </div>
+            <div class="col-lg-3 col-md-4">
+              <ul>
+                <li class="active mt-4  mb-4">Аккаунт</li>
+                <li>
+                  <i class="fas fa-location-arrow mr-2"></i>ул. Абылай хана 7 </li>
+                <li>
+                  <i class="fas fa-phone mr-2"></i>Тел.8(708)1646924</li>
+                <li>
+                  <i class="fas fa-envelope mr-2"></i>elnarmurat@gmail.com</li>
+                <li>
+                  <a href="#" class="site pl-4"><i>Услуги сайта</i></a></li>
+              </ul>  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/parallax.js"></script>	
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
+<!-- 
+    <script src="js/waypoints.min.js"></script> --><!-- 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script> -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.smooth-scroll.js"></script>
+    <!-- <script src="js/wow.min.js"></script> -->
+    <script src="js/common.js"></script>
+
+
+</html>

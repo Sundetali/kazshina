@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Site</title>
+	<link rel="stylesheet" href="static/bootstrap-4.1.1/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="static/fontawesome-free-5.0.13/web-fonts-with-css/css/fontawesome-all.min.css">
+	<link rel="stylesheet" href="static/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="static/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/output.css"></span>
+</head>
+<body>
+
+	<div id="page-preloader"><span class="spinner"></span></div>
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered " role="document">
+	    <div class="modal-content mx-auto">
+	      <div class="modal-header">
+	      	<i class="fas fa-times" data-dismiss="modal"></i>
+	      	<!-- Nav tabs -->
+	      	<ul class="nav nav-tabs d-flex align-items-center" role="tablist">
+			  <li class="nav-item ">
+			    <h5 class="nav-link active show" href="#signin" role="tab" data-toggle="tab" >
+	      			ВХОД 
+	      		</h5>
+			  </li>
+			  <li><span>/</span></li>
+			  <li class="nav-item">
+			    <h5 class="nav-link" href="#signup" role="tab" data-toggle="tab">
+			      	РЕГИСТРАЦИЯ
+			     </h5>
+			  </li>
+			</ul>
+	      </div>
+	      <div class="modal-body">
+	      	<!-- Tab panes -->
+			<div class="tab-content">
+				
+		        <form role="tabpanel" class="tab-pane fade in active show" id="signin">
+		        	<div class="form-group">
+				    <label for="email">E-mail</label>
+				    <input type="email" class="form-control" id="email" placeholder="пишите свои почту">
+				  </div>
+
+				  <div class="form-group">
+				    <label for="password">Пароль</label>
+				    <input type="password" class="form-control" id="password"placeholder="пишите пароль">
+				  </div>
+				  <button type="submit" class="btn btn-red">ВОЙТИ <i class="fa fa-angle-right"></i></button>
+
+			</form>
+	        <form role="tabpanel" class="tab-pane fade" id="signup">
+			  <div class="form-group">
+				    <label for="data">ФИО</label>
+				    <input type="text" class="form-control" id="data" placeholder="ФИО">
+			  </div>
+			  <div class="form-group">
+				    <label for="phone">Телефон</label>
+				    <input type="text" class="form-control" id="phone"placeholder="пиишите свои номер телефона">
+			  </div>
+			  <div class="form-group">
+			    <label for="email">E-mail</label>
+			    <input type="email" class="form-control" id="email" placeholder="пишите свои почту">
+			  </div>
+
+			  <div class="form-group">
+			    <label for="password">Пароль</label>
+			    <input type="password" class="form-control" id="password"placeholder="пишите пароль">
+			  </div>
+
+			  <div class="form-group">
+			    <label for="repeatPassword">Повторите пароль</label>
+			    <input type="password" class="form-control" id="repeatPassword"placeholder="повторите свои пароль">
+			  </div>
+			  <button type="submit" class="btn btn-red">ЗАРЕГИСТРИРОВАТЬСЯ <i class="fa fa-angle-right"></i></button>
+			</form>
+			</div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+  	<section class="payment mx-auto">
+  		<div class="container">
+  			<div class="row">
+  				<div class="payment-header w-100">
+  					<img src="img/logo.png" alt="logo">
+					<div class="info d-flex flex-wrap">
+						<div class="col-md-6">
+							<div class="number-payment">
+								<p>Номер заказа:</p>
+								<span># 3085</span>
+							</div>	
+						</div>
+						<div class="col-md-6">
+							<div class="sum-payment">
+								<p>Сумма:</p>
+								<span>4000.00 KZ T</span>
+							</div>	
+						</div>
+							
+					</div>
+  				</div>
+				<div class="payment-body w-100 mb-2">
+					<div class="description">
+						<p>Описание заказа</p>
+						<div class="alert alert-success">fsd fds f sdafsasfds</div>
+					</div>
+					<form action="" class="">
+						<div class="form-group ">
+						    <label for="name">Номер кредитной карты:</label>
+						    <input type="name" class="form-control" id="name" placeholder="">
+						</div>
+						<div class="form-group">
+						    <label for="name">Карта действительно до:</label>
+						    <select class="">
+						    	<option value="">dsad</option>
+							    <option value="">dsad</option>
+							</select>
+							<span>/</span>
+
+						    <select class="">
+						    	<option value="">dsad</option>
+							    <option value="">dsad</option>
+							</select>
+						</div>
+						<div class="form-group">
+						    <label for="name">Имя владельца:</label>
+						    <input type="name" class="form-control" id="name" placeholder="">
+						</div>
+						<div class="form-group">
+						    <label for="name">СVC/CVV/CID код:</label>
+						    <input type="name" class="form-control" id="name" placeholder="">
+						</div>
+					</form>
+				</div>
+				<div class="payment-footer w-100">
+					<div class="visa-wrapper d-flex justify-content-between align-items-center flex-wrap">
+						<img src="img/visa.png" alt="visa">
+						<button class="btn btn-yellow">Оплатить <i class="fa fa-angle-right"></i></button>	
+					</div>
+					<span>До окончаний сессии осталось 19:08</span>
+				</div>
+  			</div>
+  		</div>
+  	</section>
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="static/bootstrap-4.1.1/dist/js/bootstrap.min.js"></script>
+	<script src="static/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.smooth-scroll.js"></script>
+    <script src="js/common.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Site</title>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">  <link rel="stylesheet" href="static/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="static/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+
+  <link rel="stylesheet" href="cart.css"></span>
+</head>
+<body>
+<!-- Loader -->
+    <div id="page-preloader"><span class="spinner"></span></div>
+    <!-- Loader end -->
+  <header class="wow slideInDown" data-wow-delay="0.7s">
+    <nav class="navbar navbar-expand-lg navbar-dark mb-2 py-2 nav-top">
+      <div class="container">
+        <div class="row w-100 d-flex align-items-center justify-content-between">  
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-top" aria-controls="navbar-top" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- <a href="" class=" fa fa-user"></a> -->
+            <div class="dropdown d-sm-none">
+              <button class="fa fa-user dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">                
+              </button>
+              <div class="dropdown-menu user-dropdown" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item text-white" href="#">Регистрация</a>
+                <a class="dropdown-item text-white" href="#">Авторизация</a>
+              </div>
+            </div>
+            </select>
+            <div class="collapse navbar-collapse" id="navbar-top">
+              <ul class="navbar-nav w-100">
+                  <li class="dropdown">
+                    <a class="dropdown-toggle mr-sm-4" href="#" id="client" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Покупателю
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="client">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>                     
+                    </div>
+                  </li>
+                  <li>
+                    <a class="mr-sm-4" href="#">Акция</a>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle mr-sm-4" href="#" id="about" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            О Компании
+                      </a>
+                    <div class="dropdown-menu" aria-labelledby="about">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </div>
+                  </li>
+                  <li>
+                      <a href="#">Контакты</a>
+                  </li>
+                   <li class="dropdown d-lg-none">
+                      <a class="dropdown-toggle mr-sm-4" href="#" id="about" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                             Каталог товаров
+                      </a>
+                    <div class="dropdown-menu" aria-labelledby="about">
+                      <a class="dropdown-item" href="#">Легковые</a>
+                      <a class="dropdown-item" href="#">Грузовые</a>
+                    </div>
+                  </li>
+					<li class="dropdown ml-lg-auto mr-0">
+                      <a class="dropdown-toggle" href="#" id="language" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                       <!--  <img src="images/russia.png" class="mr-2" alt="ru"> -->
+                            Русский
+                      </a>
+                    <div class="dropdown-menu" aria-labelledby="language">
+                      <a class="dropdown-item" href="#">Қазақша</a>                     
+                    </div>
+                  </li>
+                  <div class="input-group d-lg-none ml-2">
+                  <input type="text" class="form-control" placeholder="Поиск...">
+                  <span>
+                    <i class="fas fa-search text-white"></i>
+                  </span>
+                </div>
+              </ul>
+          </div>
+          </div>
+      </div>
+    </nav>
+    <nav class="nav-middle">
+      <div class="container">
+        <div class="row align-items-center nav-middle-in ">
+          <div class="col-lg-2 col-md-3 wow slideInLeft" data-wow-delay="0.3s">
+          <a href="index.html">
+            <img src="images/logo.png" alt="kazshina" class="m-auto d-flex"></a>
+          </div>
+          <div class="col-md-3 d-lg-flex d-none">
+            <div class="category  d-flex">
+              <div class="dropdown w-50 d-flex justify-content-center align-items-center">
+                     <select name="" id="">
+                       <option value="">Категории</option>
+                        <option value="">Категории</option>
+                         <option value="">Категории</option>
+                     </select>
+
+                </div>
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Поиск...">
+                  <span>
+                    <i class="fas fa-search text-white"></i>
+                  </span>
+                </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-5 d-flex align-items-center justify-content-between">
+            <div class="call ml-sm-5 ">
+              <span class="phone">8 800 619 85 97</span><br>
+              <span class="time">Пн-Пт 9:00-18:00</span><br>
+              <p class="more d-sm-flex d-none">Режим работы городских точек: <a href="#">Подробнее</a></p>
+            </div>
+             <div class="basket-left d-sm-none">
+                <i class="fas fa-shopping-basket"></i>
+                <span id="cart-total" class="">0</span>            
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="basket d-flex align-items-center">
+              <div class="basket-left d-none d-sm-flex">
+                <i class="fas fa-shopping-basket"></i>
+                <span id="cart-total" class="">0</span>
+              </div>
+              <div class="basket-right">
+                <span class="d-block">
+                  <a href="a">Корзина</a>
+                  <a href="#">Личный Кабинет</a>
+                </span>
+                <span class="number text-dark">
+                  0 товаров 0 тг
+                </span>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light nav-bottom nav-bottom">
+      <div class="container">
+        <div class="row w-100">  
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-bottom" aria-controls="navbar-bottom" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-bottom">
+              <ul class="navbar-nav w-100 d-flex align-items-center">
+                  <li class="dropdown">
+                    <a class="dropdown-toggle" href="#" id="client" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      КАТАЛОГ ТОВАРОВ
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="client">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+                  <li>
+					         <a href="#">ШИНЫ ЛЕГКОВЫЕ</a>
+                  </li>
+                  <li>
+                    <a href="#">ШИНЫ ГРУЗОВЫЕ</a>
+                  </li>
+                  
+                  <li>
+                      <a href="#">ШИНЫ КОММЕРЧЕСКИЕ</a>
+                  </li>
+                  
+                  <li>
+                      <a href="#">ДИСКИ</a>
+                  </li>  
+                  <div class="zapis ml-sm-auto mr-0 d-flex justify-content-center align-items-center ">
+                      <a href="#">ЗАПИСАТЬСЯ НА ШИНОМОНТАЖ</a>
+                  </div>
+              </ul>
+          </div>
+          </div>
+      </div>
+    </nav>  
+  </header>
+
+
+	<div class="parallax">
+		<img class="parrallax-image" src="images/audi.jpg" alt="">
+	</div>
+ 	
+ 	<div class="breadCumbs">
+		<div class="container">
+			<a href="index.html" class="breadCumbs__page">Главная</a><span class="fa fa-angle-right"></span><a href="listings.html" class="b-breadCumbs__page m-active">Корзина</a>
+		</div>
+	</div>
+
+
+<div class="section-cart bg-white p-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 d-flex flex-column">
+       <h5 class="mb-4 text-danger">Корзина товаров</h5>
+        
+        <div class="cart-empty d-flex flex-wrap  align-items-center">
+            <p class="mr-5">Корзина пуста</p>
+            <a class="checkout " href="/catalog/"><i class="fa fa-shopping-cart"></i> Вернуться к покупкам</a>
+        </div>
+
+        <table class="table-bordered table-striped table">
+            <tbody>
+                <tr>
+                    <th class="desktop-info">Код товара</th>
+                    <th>Название</th>
+                    <th>Стомость, $</th>
+                    <th class="desktop-info">Количество, шт</th>
+                    <th class="desktop-info">Дата покупки</th>
+                    <th class="desktop-info">Удалить</th>
+                </tr>
+                  <tr>
+                      <td class="desktop-info">355025</td>
+                      <td>
+                      <a href="/product/44">
+                          ContiCrossContact LX2 </a>
+                      </td>
+                      <td>175</td>
+                      <td class="desktop-info d-lg-flex align-items-center justify-content-center">  
+                        <div class="item-info-counter-box">
+                          <div class="info h-100 d-flex justify-content-center align-items-center">1</div>
+                        </div>
+                      <div class="item-info-counter-plus d-flex flex-column justify-content-between ml-2">
+                        <button class="btn-calc plus text-center" href=""><p>+</p></button>
+                        <button class="btn-calc minus text-center mt-1" href="">-</button>
+                    <input type="hidden" id="hiddenVal" value="0"/>
+                    </div></td>
+                      <td class="desktop-info">25-05-18</td>
+                      <td class="desktop-info">
+                          <a href="/cart/delete/44">
+                              <i class="fa fa-times"></i>
+                          </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="desktop-info">355025</td>
+                      <td>
+                      <a href="/product/44">
+                          ContiCrossContact LX2 </a>
+                      </td>
+                      <td>175</td>
+                      <td class="desktop-info  d-lg-flex align-items-center justify-content-center"><div class="item-info-counter-box">
+                      <div class="info h-100 d-flex justify-content-center align-items-center">1</div>
+                    </div>
+                      <div class="item-info-counter-plus d-flex flex-column justify-content-between ml-2">
+                      <button class="btn-calc plus text-center" href=""><p>+</p></button>
+                      <button class="btn-calc minus text-center mt-1" href="">-</button></td>
+                      <td class="desktop-info">25-05-18</td>
+                      <td class="desktop-info">
+                          <a href="/cart/delete/44">
+                              <i class="fa fa-times"></i>
+                          </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td colspan="1">Общая стоимость, $:</td>
+                      <td>175</td>
+                    </tr>
+              </tbody>
+          </table>
+        <div class="d-flex justify-content-end">
+             <button class="btn btn-red ml-3 d-flex flex-row align-items-center" type="submit" value="Купить в 1 клик">Оформить заказ<span class="fa fa-angle-right p-auto"></span> </button> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+  <footer class="mt-5">
+<a id="to-top" href="#this-is-top"><i class="fa fa-chevron-up"></i></a>
+    <div class="container">
+      <div class="row align-items-top">
+        <div class="col-lg-3 col-md-3">
+          <div class="left-footer d-flex flex-column justify-content-center align-items-center">
+            <img src="images/logo-white.png" alt="logo">
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo accusamus sed atque obcaecati alias dicta eos quae asperiores, fuga, voluptates, dignissimos ipsa accusantium deleniti nobis quidem doloremque dolores aliquam? Asperiores!</p>
+            <ul class="icons d-flex justify-content-center">
+              <li><i class="fab fa-facebook"></i></li>
+              <li><i class="fab fa-whatsapp"></i></li>
+              <li><i class="fab fa-vk"></i></li>
+            </ul>
+            <ul class="company-info d-flex flex-column  d-sm-none">
+                <li>
+                  <i class="fas fa-location-arrow mr-2"></i>ул. Абылай хана 7 </li> 
+                <li>
+                  <i class="fas fa-phone mr-2"></i>Тел. 8 (708) 164 69 24</li>
+                <li>
+                  <i class="fas fa-envelope mr-2"></i>elnarmurat@gmail.com</li>
+                <li>
+                  <a href="#" class="pl-4"><i>Услуги сайта</i></a></li>
+              </ul>  
+          </div>
+        </div>
+        <div class="col-lg-9 col-md-9 d-md-block d-none">
+          <div class="right-footer d-flex">
+            <div class="col-lg-3 col-md-4 col-sm-4">
+              <ul class="first">
+                <li class="active mt-4 mb-4">Аккаунт</li>
+                <li><a href="#">Мой аккаунт</a></li>
+                <li><a href="#">Регистрация</a></li>
+                <li><a href="#">Авторизация</a></li>
+                <li><a href="#">Корзина</a></li>
+              </ul>  
+            </div>
+            <div class="col-lg-3 col-md-4 d-lg-flex d-none">
+              <ul>
+                <li class="active mt-4  mb-4">Каталог</li>
+                <li><a href="#">Легковые</a></li>
+                <li><a href="#">Грузовые</a></li>
+                <li><a href="#">Коммерческие</a></li>
+                <li><a href="#">Картинг</a></li>
+              </ul>  
+            </div>
+            <div class="col-lg-3 col-md-4">
+              <ul>
+                <li class="active mt-4  mb-4">Компания</li>
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Покупателю</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Акции</a></li>
+                <li><a href="#">Вакансии</a></li>
+              </ul>  
+            </div>
+            <div class="col-lg-3 col-md-4">
+              <ul>
+                <li class="active mt-4  mb-4">Аккаунт</li>
+                <li>
+                  <i class="fas fa-location-arrow mr-2"></i>ул. Абылай хана 7 </li>
+                <li>
+                  <i class="fas fa-phone mr-2"></i>Тел.8(708)1646924</li>
+                <li>
+                  <i class="fas fa-envelope mr-2"></i>elnarmurat@gmail.com</li>
+                <li>
+                  <a href="#" class="site pl-4"><i>Услуги сайта</i></a></li>
+              </ul>  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/parallax.js"></script>  
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
+<!-- 
+    <script src="js/waypoints.min.js"></script> --><!-- 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script> -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.smooth-scroll.js"></script>
+    <!-- <script src="js/wow.min.js"></script> -->
+  
+    <script src="js/common.js"></script>
+    
+</html>
